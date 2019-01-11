@@ -82,13 +82,15 @@ def dingtalk():
 		yewuleixing = content[3]['value']
 		hangye = content[14]['value']
 		qiyeguimo = content[16]['value']
-		lianxiren = content[17]['value']
-		zhiwei = content[18]['value']
-		lianxidianhua = content[19]['value']
-		dizhi = content[20]['value']
-		xiansuoren = content[21]['value']
+		shengfen = content[17]['value']
+		chengshi = content[18]['value']
+		lianxiren = content[19]['value']
+		zhiwei = content[20]['value']
+		lianxidianhua = content[21]['value']
+		dizhi = content[22]['value']
+		xiansuoren = content[23]['value']
 		kp = json.loads(content[25]['value'])
-		print(kp)
+		#print(kp)
 		kaipiaoleixing = kp[0]['rowValue'][0]['value']
 		kaipiaodanwei = kp[0]['rowValue'][1]['value']
 		shuihao = kp[0]['rowValue'][2]['value']
